@@ -1,6 +1,8 @@
 # Realtime-Speech-to-Speech
 Fast local Speech To Speech using [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) &amp; [RealtimeTTS](https://github.com/KoljaB/RealtimeTTS)
 
+Use xtts_v2, faster_whisper and lm studio, all on local.
+
 I'm not the creator of RealTimeTTS or RealTimeSTT, I just make this script for fun and it work pretty well and fast for me with an i5 12600, 32Go of ram and an RTX 3060 12Go.
 
 ## How to install :
