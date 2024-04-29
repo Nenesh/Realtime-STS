@@ -39,7 +39,7 @@ In sts.py :
 
 *Lauching take some time (30s to 40s), but ones is launch you can have a conversation close to realtime.*
 
-- Wait for "speak now".
+- Wait for "speak ...".
 - If the response from the llm is to long for you, you can force stop the TTS by pressing spacebar.
 
 ### The script should work fine, but some you will see some problem in the console (warning message and double llm transcript), to fix that :
