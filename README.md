@@ -31,8 +31,8 @@ Go in > run_this_first.py.
 - You can change personality of your bot by modifying personality.txt file.
 
 In sts.py :
-- All settings are between line 8 and 33. Comment will help you understand what they are for.
-- Only thing you will maybe want to change is line 66 : Change "Emma" with your bot name.
+- All settings are between line 8 and 36. Comment will help you understand what they are for.
+- Only thing you will maybe want to change is line 90 : Change "Emma" with your bot name.
 - Launch LM Studio on server mode.
 
 - Run sts.py script.
