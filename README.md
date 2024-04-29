@@ -44,7 +44,7 @@ In sts.py :
 
 ### The script should work fine, but some you will see some problem in the console (warning message and double llm transcript), to fix that :
 
-- Go to c:\Users\User\.conda\envs\sts\lib\site-packages\TTS\tts\layers\xtts\stream_generator.py
+- Go to c:\Users\User\ .conda\envs\sts\lib\site-packages\TTS\tts\layers\xtts\stream_generator.py
 - Delet line 137 to 143 (the "if new_generation_config != self.generation_config:" statement)
 
 Ones done, this part of the code should look like this :
@@ -55,7 +55,7 @@ Ones done, this part of the code should look like this :
             generation_config = self.generation_config
 
 - After that, in sts.py, right clic on CoquiEngine > Go to Definition
-- or go to c:\Users\User\.conda\envs\sts\lib\site-packages\RealtimeTTS\engines\coqui_engine.py
+- or go to c:\Users\User\ .conda\envs\sts\lib\site-packages\RealtimeTTS\engines\coqui_engine.py
 - Comment line 547 like this:
 > #print(f"XTTS Synthesizing: {text}")
 
